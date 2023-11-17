@@ -27,7 +27,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   bool isLoading = false;
-  PDFDocument doc;
+  late PDFDocument doc;
 
   @override
   Widget build(BuildContext context) {
@@ -44,13 +44,13 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         loadFromAsset();
                       },
                       child: Text("Load local PDF"),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         loadFromURL();
                       },

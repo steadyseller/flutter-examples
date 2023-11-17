@@ -140,9 +140,8 @@ class _SignUpPageState extends State<SignUpPage> {
                     width: size.width * 0.8,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(29),
-                      child: FlatButton(
-                        padding:
-                        EdgeInsets.symmetric(vertical: 15, horizontal: 40),
+                      child: TextButton(
+                        style: TextButton.styleFrom(padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40), foregroundColor: Color(0xFF6F35A5)),
                         onPressed: () {
                           String _email = email.text;
                           String _password = password.text;
@@ -157,7 +156,6 @@ class _SignUpPageState extends State<SignUpPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: 20),
                         ),
-                        color: Color(0xFF6F35A5),
                       ),
                     ),
                   ),
@@ -168,9 +166,8 @@ class _SignUpPageState extends State<SignUpPage> {
                     width: size.width * 0.81,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(29),
-                      child: FlatButton.icon(
-                        padding:
-                        EdgeInsets.symmetric(vertical: 15, horizontal: 40),
+                      child: TextButton.icon(
+                        style: TextButton.styleFrom(padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40), foregroundColor: Color(0xFF6F35A5)),
                         onPressed: () {
                           final provider = Provider.of<GoogleSignInProvider>(
                               context,
@@ -193,7 +190,6 @@ class _SignUpPageState extends State<SignUpPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: 20),
                         ),
-                        color: Color(0xFF6F35A5),
                       ),
                     ),
                   ),

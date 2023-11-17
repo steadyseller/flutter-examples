@@ -62,8 +62,8 @@ class _HomePageState extends State<HomePage> {
               width: size.width*0.8,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(29),
-                child: FlatButton(
-                  padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40),
+                child: TextButton(
+                  style: TextButton.styleFrom(padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40), foregroundColor: Color(0xFF6F35A5)),
                   onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>SignUpPage(true)));
                   },
@@ -74,7 +74,6 @@ class _HomePageState extends State<HomePage> {
                         fontSize: 20
                     ),
                   ),
-                  color: Color(0xFF6F35A5),
                 ),
               ),
             ),
@@ -85,8 +84,8 @@ class _HomePageState extends State<HomePage> {
           width: size.width*0.8,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(29),
-            child: FlatButton(
-              padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40),
+            child: TextButton(
+              style: TextButton.styleFrom(padding: EdgeInsets.symmetric(vertical: 15,horizontal: 40), foregroundColor: Color(0xFFF1E6FF)),
               onPressed: (){
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context)=> SignUpPage(false))
@@ -99,7 +98,6 @@ class _HomePageState extends State<HomePage> {
                     fontSize: 20
                 ),
               ),
-              color: Color(0xFFF1E6FF),
             ),
           ),
         ),

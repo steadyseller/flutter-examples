@@ -7,7 +7,8 @@ void main() {
     // Set the theme's primary color, accent color,
     theme: ThemeData(
       primarySwatch: Colors.green,
-      accentColor: Colors.lightGreenAccent,
+      colorScheme: ColorScheme.fromSwatch()
+          .copyWith(secondary: Colors.lightGreenAccent),
       // Set background color
       backgroundColor: Colors.black12,
     ),
@@ -29,11 +30,11 @@ class MyHome extends StatelessWidget {
         child: Center(
           child: Container(
             // use the theme accent color as background color for this widget
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).colorScheme.secondary,
             child: Text(
               'Hello World!',
               // Set text style as per theme
-              style: Theme.of(context).textTheme.title,
+              style: Theme.of(context).textTheme.titleMedium,
             ),
           ),
         ),
