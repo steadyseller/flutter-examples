@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Infinite List',
       theme: ThemeData(
-          primaryColor: Colors.blue, accentColor: Colors.lightBlue),
+          primaryColor: Colors.blue, hintColor: Colors.lightBlue),
       home: RandomWords(),
     );
   }
