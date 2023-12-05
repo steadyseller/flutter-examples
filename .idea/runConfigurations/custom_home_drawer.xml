@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="custom_home_drawer" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/custom_home_drawer/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

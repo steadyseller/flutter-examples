@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="view_pdf_file" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/view_pdf_file/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bottom_sheet" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/bottom_sheet/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>
