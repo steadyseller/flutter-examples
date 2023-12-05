@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../flutter-examples/bottom_sheet/bottom_sheet.iml" filepath="$PROJECT_DIR$/../flutter-examples/bottom_sheet/bottom_sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_home_drawer/custom_home_drawer.iml" filepath="$PROJECT_DIR$/custom_home_drawer/custom_home_drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firebase_google_authentication/firebase_google_authentication.iml" filepath="$PROJECT_DIR$/firebase_google_authentication/firebase_google_authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scan_qr_code/scan_qr_code.iml" filepath="$PROJECT_DIR$/scan_qr_code/scan_qr_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/using_listview/using_listview.iml" filepath="$PROJECT_DIR$/using_listview/using_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/using_theme/using_theme.iml" filepath="$PROJECT_DIR$/using_theme/using_theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view_pdf_file/view_pdf_file.iml" filepath="$PROJECT_DIR$/view_pdf_file/view_pdf_file.iml" />
+    </modules>
+  </component>
+</project>
